@@ -9,7 +9,6 @@
   }
   .main-div{
     min-height: 100vh;
-   /* background: #03071e; */
     display: flex;
     justify-content: center;
   }
@@ -17,7 +16,6 @@
   .child-div{
     text-align: center;
     margin: 2rem;
-    /* border: 2px solid blue; */
   }
   .child-div h2{
     color: #fff;

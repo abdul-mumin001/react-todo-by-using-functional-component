@@ -2,7 +2,6 @@ import React, {useState,useEffect} from "react";
 import "./todo.css";
 
 
-//======================================================================get data from local storage on refreshing==========================================================
 const getLocalItems =() =>{
     let list = localStorage.getItem('lists');
     if(list)
@@ -15,7 +14,7 @@ const TodoFunc = () =>{
     const [items, setItems] = useState(getLocalItems());
     const [toggleSubmit, setToggleSubmit] = useState(true);
     const [isEditItem, setIsEditItem] =useState(null);
-    // ======================================================================add new element in list========================================================================
+
     const addItem = ()=>{
         if(!inputData)
         alert("input data");
